@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-02-04
+- [x] [简述 Spring AOP 的原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-04/AOP.md)
+
 ### 2021-02-03
 - [x] [JVM 中内存模型是怎样的，简述新生代与老年代的区别？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-03/Model.md)
 

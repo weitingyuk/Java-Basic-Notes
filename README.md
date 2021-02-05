@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-02-05
+- [x] [实现单例设计模式](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-05/Singleton.md)
+
 ### 2021-02-04
 - [x] [简述 Spring AOP 的原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-04/AOP.md)
 

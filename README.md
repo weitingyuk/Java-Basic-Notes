@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-02-06
+- [x] [简述 Java 的反射机制及其应用场景](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-06/Reflection.md)
+
 ### 2021-02-05
 - [x] [实现单例设计模式](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-05/Singleton.md)
 

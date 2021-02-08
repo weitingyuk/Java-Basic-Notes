@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-02-08
+- [x] [简述 ArrayList 与 LinkedList 的底层实现以及常见操作的时间复杂度](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-08/List.md)
+
 ### 2021-02-07
 - [x] [Java 是如何实现线程安全的，哪些数据结构是线程安全的？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-07/Thread-Safety.md)
 

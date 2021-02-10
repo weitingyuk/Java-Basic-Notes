@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-02-10
+- [x] [Java 中 sleep() 与 wait() 的区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-10/Sleep&Wait.md)
+
 ### 2021-02-09
 - [x] [Java 类的加载流程是怎样的？什么是双亲委派机制](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-09/ClassLoader.md)
 

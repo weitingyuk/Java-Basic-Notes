@@ -30,6 +30,8 @@ Waiting's java basic knowledge notes
 ### 2021-02-01
 - [x] [HashMap 与 ConcurrentHashMap 的实现原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-01/HashMap&ConcurrentHashMap.md)
 
- 
+### 2021-01-31
+- [x] [synchronized 关键字底层是如何实现的,它与 Lock 相比优缺点分别是什么](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-01-31/Synchronized.md)
+
 ### 2021-01-30
 - [x] [简述 Synchronized Volatile 可重入锁的不同使用场景及优缺点](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-01-30/Synchronized&Volatile.md)

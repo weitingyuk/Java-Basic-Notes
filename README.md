@@ -26,3 +26,10 @@ Waiting's java basic knowledge notes
 
 ### 2021-02-02
 - [x] [Java 中垃圾回收机制中如何判断对象需要回收和常见的 GC 回收算法有哪些](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-02/GC.md)
+ 
+### 2021-02-01
+- [x] [HashMap 与 ConcurrentHashMap 的实现原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-01/HashMap&ConcurrentHashMap.md)
+
+ 
+### 2021-01-30
+- [x] [简述 Synchronized Volatile 可重入锁的不同使用场景及优缺点](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-01-30/HashMap&ConcurrentHashMap.md)

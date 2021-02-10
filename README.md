@@ -32,4 +32,4 @@ Waiting's java basic knowledge notes
 
  
 ### 2021-01-30
-- [x] [简述 Synchronized Volatile 可重入锁的不同使用场景及优缺点](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-01-30/HashMap&ConcurrentHashMap.md)
+- [x] [简述 Synchronized Volatile 可重入锁的不同使用场景及优缺点](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-01-30/Synchronized&Volatile.md)

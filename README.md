@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-02-12
+- [x] [Java 中 ArrayBlockingQueue 与 LinkedBlockingQueue的使用场景和区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-12/BlockingQueue.md)
+
 ### 2021-02-10
 - [x] [Java 中 sleep() 与 wait() 的区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-10/Sleep&Wait.md)
 

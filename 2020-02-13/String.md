@@ -1,71 +1,56 @@
-## BlockingQueue
-ArrayBlockingQueue和LinkedBlockingQueue都是实现了BlockingQueue接口，BlockingQueue接口定义了一种阻塞的FIFO queue，每一个BlockingQueue都有一个容量，让容量满时往BlockingQueue中添加数据时会造成阻塞，当容量为空时取元素操作会阻塞。
+##  String 类能不能被继承？
+-  不可以，因为String类有final修饰符，而final修饰的类是不能被继承的，实现细节不允许改变。
+## 关于final修饰符
+- final类不能被继承，没有子类，final类中的方法默认是final的。
+- final方法不能被子类的方法覆盖，但可以被继承。
+- final成员变量表示常量，只能被赋值一次，赋值后值不再改变。
+- final不能用于修饰构造方法。
+- **注意**：父类的private成员方法是不能被子类方法覆盖的，因此private类型的方法默认是final类型的。
+## String 的不可变性
+### 什么是不可变类
+- 不可变类：所谓的不可变类是指这个类的实例一旦创建完成后，就不能改变其成员变量值。如JDK内部自带的很多不可变类：Interger、Long和String等。
+- 可变类：相对于不可变类，可变类创建实例后可以改变其成员变量值，开发中创建的大部分类都属于可变类。
+### 不可变类的设计方法
+1. 类添加final修饰符，保证类不被继承。
+1. 保证所有成员变量必须私有，并且加上final修饰。
+1. 不提供改变成员变量的方法，包括setter
+避免通过其他接口改变成员变量的值，破坏不可变特性。
+1. 通过构造器初始化所有成员，进行深拷贝(deep copy)。
+如果构造器传入的对象直接赋值给成员变量，还是可以通过对传入对象的修改进而导致改变内部变量的值。
+5. 在getter方法中，不要直接返回对象本身，而是克隆对象，并返回对象的拷贝。
+这种做法也是防止对象外泄，防止通过getter获得内部可变成员对象后对成员变量直接操作，导致成员变量发生改变。
 
-BlockingQueue主要提供下面的接口
-#### 1. 3个添加元素方法
-- add：添加元素到队列里，添加成功返回true，由于容量满了添加失败会抛出IllegalStateException异常
-- offer：添加元素到队列里，添加成功返回true，添加失败返回false
-- put：添加元素到队列里，如果容量满了会阻塞直到容量不满
-#### 2. 3个删除方法
-- poll：删除队列头部元素，如果队列为空，返回null。否则返回元素。
-- remove：基于对象找到对应的元素，并删除。删除成功返回true，否则返回false
-- take：删除队列头部元素，如果队列为空，一直阻塞到队列有元素并删除
+### String对象的不可变性
+string对象在内存创建后就不可改变，不可变对象的创建一般满足以上5个原则：
+1. String类被final修饰，不可继承
+1. string内部所有成员都设置为私有变量
+1. 不存在value的setter，并将value和offset设置为final。
+1. 当传入可变数组value[]时，进行copy而不是直接将value[]复制给内部变量.
+1. 获取value时不是直接返回对象引用，而是通过Arrays.copyOf返回对象的copy.
+这都符合上面总结的不变类型的特性，也保证了String类型是不可变的类。
 
-## ArrayBlockingQueue和LinkedBlockingQueue的实现原理
+###  String对象的不可变性的优缺点
+#### 优点
+1. 字符串常量池的需要.
+- 字符串常量池可以将一些字符常量放在常量池中重复使用，避免每次都重新创建相同的对象、节省存储空间。
+2. 线程安全考虑。
+- 同一个字符串实例可以被多个线程共享。
+3. 不可变性提供了安全性，因为类加载器要用到字符串，这样可以使得正确的类被加载。
+4. 支持hash映射和缓存。
+- 因为字符串是不可变的，所以在它创建的时候hashcode就被缓存了，不需要重新计算。
 
-### ArrayBlockingQueue
-- ArrayBlockingQueue是一个带有长度的阻塞队列，初始化的时候必须要指定队列长度，且指定长度之后不允许进行修改。
+#### 缺点
+如果有对String对象值改变的需求，那么会创建大量的String对象。
 
-- ArrayBlockingQueue的原理就是使用一个可重入锁和这个锁生成的两个条件对象进行并发控制(classic two-condition algorithm: notEmpty, notFull):
-    1.  若某线程(线程A)要取数据时，数组正好为空，则该线程会执行notEmpty.await()进行等待；当其它某个线程(线程B)向数组中插入了数据之后，会调用notEmpty.signal()唤醒“notEmpty上的等待线程”。此时，线程A会被唤醒从而得以继续运行。
-    2.  若某线程(线程H)要插入数据时，数组已满，则该线程会它执行notFull.await()进行等待；当其它某个线程(线程I)取出数据之后，会调用notFull.signal()唤醒“notFull上的等待线程”。此时，线程H就会被唤醒从而得以继续运行。
+### String对象的是否真的不可变
+虽然String对象将value设置为final,并且还通过各种机制保证其成员变量不可改变。但是还是可以通过反射机制的手段改变其值。例如：
+```
+/获取String类中的value字段
+Field valueFieldOfString = String.class.getDeclaredField("value");
+//改变value属性的访问权限
+valueFieldOfString.setAccessible(true);
+```
 
-### LinkedBlockingQueue
-1. LinkedBlockingQueue继承于AbstractQueue，它本质上是一个FIFO(先进先出)的队列。
-2. LinkedBlockingQueue实现了BlockingQueue接口，它支持多线程并发。当多线程竞争同一个资源时，某线程获取到该资源之后，其它线程需要阻塞等待。
-3. LinkedBlockingQueue是通过单链表实现的。
-4. LinkedBlockingQueue在实现“多线程对竞争资源的互斥访问”时，对于“插入”和“取出(删除)”操作分别使用了不同的锁。
-- putLock是插入锁，takeLock是取出锁；notEmpty是“非空条件”，notFull是“未满条件”。通过它们对链表进行并发控制。
--  对于插入操作，通过“插入锁putLock”进行同步,插入锁putLock和“条件notFull”相关联；
--  对于取出操作，通过“取出锁takeLock”进行同步, 取出锁takeLock和“条件notEmpty”相关。
 
-### ArrayBlockingQueue和LinkedBlockingQueue的区别
-
-#### 队列中锁的实现不同
-
-    ArrayBlockingQueue实现的队列中的锁是没有分离的，即生产和消费用的是同一个锁；
-
-    LinkedBlockingQueue实现的队列中的锁是分离的，即生产用的是putLock，消费是takeLock
-
-#### 在生产或消费时操作不同
-
-    ArrayBlockingQueue实现的队列中在生产和消费的时候，是直接将枚举对象插入或移除的；
-
-    LinkedBlockingQueue实现的队列中在生产和消费的时候，需要把枚举对象转换为Node<E>进行插入或移除，会影响性能
-
-#### 队列大小初始化方式不同
-
-    ArrayBlockingQueue实现的队列中必须指定队列的大小；
-
-    LinkedBlockingQueue实现的队列中可以不指定队列的大小，但是默认是Integer.MAX_VALUE
-    
-### ArrayBlockingQueue和LinkedBlockingQueue的使用场景
-#### ArrayBlockingQueue
-- 分析:
-    - 由于基于数组，容量固定所以不容易出现内存占用率过高，但是如果容量太小，取数据比存数据的速度慢，那么会造成过多的线程进入阻塞(也可以使用offer()方法达到不阻塞线程)
-    - 由于存取共用一把锁，所以有高并发和吞吐量的要求情况下也不建议使用ArrayBlockingQueue。
-- 使用场景 
-    - 案例：人事系统中员工离职/变更后，其他依赖应用进行数据同步。
-    - 适合变更操作不是非常频繁的场景，这样能有效防止线程阻塞。
-    - 如果基本没有并发和吞吐量的要求，所以可以将数据存放到ArrayBlockingQueue中。
-#### LinkedBlockingQueue
-- 特征: 
-    - LinkedBlockingQueue基于链表实现，队列容量默认Integer.MAX_VALUE存/取数据的操作分别拥有独立的锁，可实现存/取并行执行。
-
-- 分析:
-    - 基于链表，数据的新增和移除速度比数组快，但是每次存储/取出数据都会有Node对象的新建和移除，所以也存在由于GC影响性能的可能
-    - 默认容量非常大，所以存储数据的线程基本不会阻塞，但是如果消费速度过低，内存占用可能会飙升。
-    - 读/取操作锁分离，所以适合有并发和吞吐量要求的项目中
-- 使用场景:
-    - 在项目的一些核心业务且生产和消费速度相似的场景中: 订单完成的邮件/短信提醒。
-    - 如果订单的成交量非常大，那么使用ArrayBlockingQueue就会有一些问题，固定数组很容易被使用完，此时调用的线程会进入阻塞，那么可能无法及时将消息推送出去，所以使用LinkedBlockingQueue比较合适，但是要注意消费速度不能太低，不然很容易内存被使用完
+### Ref:
+https://www.jianshu.com/p/4609c488b59e

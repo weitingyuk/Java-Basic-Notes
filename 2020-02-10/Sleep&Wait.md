@@ -1,7 +1,5 @@
 # Java中sleep()和wait()方法的区别
 
-# Java中sleep()和wait()方法的区别
-
 ## Java sleep() vs wait() – 转换流程
 ### sleep()
 1. 调用 sleep 会让当前线程从 Running 进入 Timed Waiting 状态(阻塞)

@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-02-14
+- [x] [Java 中接口和抽象类的区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-14/Interface&Abstract.md)
+
 ### 2021-02-13
 - [x] [String 类能不能被继承？和它的不变性](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-13/String.md)
 

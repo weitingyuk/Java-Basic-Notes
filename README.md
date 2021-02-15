@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-02-15
+- [x] [hashcode 和 equals 方法的联系](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-15/HashCode&Equals.md)
+
 ### 2021-02-14
 - [x] [Java 中接口和抽象类的区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-14/Interface&Abstract.md)
 

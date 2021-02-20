@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-02-20
+- [x] [线程池是如何实现的？简述线程池的任务策略](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-20/ThreadPool.md)
+
 ### 2021-02-19
 - [x] [Spring MVC 的原理和流程](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-19/SpringMVC.md)
 

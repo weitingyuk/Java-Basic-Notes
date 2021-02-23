@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-02-23
+- [x] [简述 undo log、 redo log 和 binlog 的作用](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-23/Undo&RedoLog.md)
+
 ### 2021-02-22
 - [x] [Mysql 索引原理和类型](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-22/MysqlIndex.md)
 - [x] [MySQL 为什么使用 B+ 树来作索引，对比 B 树它的优点和缺点是什么？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-22/BTree&B+Tree.md)

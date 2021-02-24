@@ -1,7 +1,10 @@
 Waiting's java basic knowledge notes
 
+### 2021-02-24
+- [x] [简述什么是最左匹配原则](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-24/LeftMostMatch.md)
+
 ### 2021-02-23
-- [x] [简述 undo log、 redo log 和 binlog 的作用](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-23/Undo&RedoLog.md)
+- [x] [简述 undo log 和 redo log的作用](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-23/Undo&RedoLog.md)
 
 ### 2021-02-22
 - [x] [Mysql 索引原理和类型](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-22/MysqlIndex.md)

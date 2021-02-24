@@ -1,17 +1,20 @@
-## 简述 undo log 和 redo log 的作用
+## 简述什么是最左匹配原则
+- MySQL可以创建联合索引(即, 多列的索引). 一个索引可以包含最多16列. 对于 某些数据类型, 你可以索引列的前缀作为索引。
+- 如果表拥有一个联合索引, 任何一个索引的最左前缀都会被优化器用于查找列. 比如,
+如果你创建了一个三列的联合索引包含(col1, col2, col3), 你的索引会生效于(col1),
+(col1, col2), 以及(col1, col2, col3)
+- 如果查询的列不是索引的最左前缀, 那MySQL不会将索引用于执行查询.
 
-注： undo log 和redo log是为了支持事务才有的log，InnoDB引擎中有这两个log，MyISAM引擎没有。
 
+例如：
+你有下列查询语句:
 
-### undo log
-撤消日志是与单个读写事务关联的撤消日志记录的集合。
-- **作用**：undo log是回滚日志，提供回滚操作
+```
+SELECT * FROM tbl_name WHERE col1=val1;
+SELECT * FROM tbl_name WHERE col1=val1 AND col2=val2;
 
-### redo log
-redo log是基于磁盘的数据结构，在崩溃恢复期间用于纠正不完整事务写入的数据。
- - **作用**：redolog 用来保证数据库宕机后可以通过该文件进行恢复。
+SELECT * FROM tbl_name WHERE col2=val2;
+SELECT * FROM tbl_name WHERE col2=val2 AND col3=val3;
+```
 
-###  undo log 和 redo log  的区别是:
-- undo log不是redo log的逆向过程，其实它们都算是用来恢复的日志：
-- redo log通常是物理日志，记录的是数据页的物理修改，而不是某一行或某几行修改成怎样，它用来恢复提交后的物理数据页，且只能恢复到最后一次提交的位置。
-- undo log用来回滚行记录到某个版本，undo log一般是逻辑日志，根据每行记录进行记录。
+如果索引存在于(col1, col2, col3), 那只有头两个查询语句用到了索引. 第三个和 第四个查询包含索引的列, 但是不会用索引去执行查询. 因为(col2)和(col2, col3) 不是(col1, col2, col3)的最左前缀

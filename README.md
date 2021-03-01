@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2020-03-01
+- [x] [什么情况下会发生死锁，如何解决死锁？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-01/PhantomRead.md)
+
 ### 2021-02-28
 - [x] [什么情况下会发生死锁，如何解决死锁？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-02-28/DeadLocking.md)
 

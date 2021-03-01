@@ -1,9 +1,50 @@
 ## 什么情况下会发生死锁，如何解决死锁？
 
 ### 什么情况下会发生死锁
-- 死锁是指由于每个事务都持有对方需要的锁而无法进行其他事务的情况。因为这两个事务都在 await 资源变得可用，所以两个都不会释放它持有的锁。
-- InnoDB使用自动行级锁定。即使在仅插入或删除单行的事务中，也可能会遇到死锁。
-    - 因为这些操作并不是 true 的“原子”操作；它们会自动对插入或删除的行的(可能是多个)索引记录设置锁定。
+- **死锁** 是指两个或两个以上的进程在执行过程中，由于竞争资源或者由于彼此通信而造成的一种阻塞的现象，若无外力作用，它们都将无法推进下去。此时称系统处于死锁状态或系统产生了死锁，这些永远在互相等待的进程称为死锁进程。
+- InnoDB 引擎采取的是 wait-for graph 等待图的方法来自动检测死锁，如果发现死锁会自动回滚一个事务。
+
+### 死锁示例
+1. 准备两个终端，在此命名为 mysql 终端 1 和 mysql 终端 2，分别登入 mysql，再准备一张测试表 test 写入两条测试数据，并调整隔离级别为 SERIALIZABLE ，任意一个终端执行即可。
+
+```
+SET @@session.transaction_isolation = 'REPEATABLE-READ';
+create database test;
+use test;
+create table test(id int primary key);
+insert into test(id) values(1),(2);
+```
+
+2. 登录 mysql 终端 1，开启一个事务，手动给 ID 为 1 的记录加 X 锁。
+
+
+```
+begin;
+select * from test where id = 1 for update;
+```
+
+3. 登录 mysql 终端 2，开启一个事务，手动给 ID 为 2 的记录加 X 锁。
+
+```
+begin;
+select * from test where id = 2 for update;
+```
+
+4. 切换到 mysql 终端 1，手动给 ID 为 2 的记录加 X 锁，此时会一直卡住，因为此时在等待第 3 步中 X 锁的释放，直到超时，超时时间由 innodb_lock_wait_timeout 控制。
+
+```
+select * from test where id = 2 for update;
+```
+
+5. 在锁超时前立刻切换到 mysql 终端 2，手动给 ID 为 1 的记录加 X 锁，此时又会等待第 2 步中 X 所的释放，两个终端都在等待资源的释放，所以 InnoDB 引擎会立马检测到死锁产生，自动回滚一个事务，以防止死锁一直占用资源。
+
+```
+select * from test where id = 1 for update;
+ERROR 1213 (40001): Deadlock found when trying to get lock; try restarting transaction
+```
+
+此时，通过 show engine innodb status\G 命令可以看到 LATEST DETECTED DEADLOCK 相关信息，即表明有死锁发生；或者通过配置 innodb_print_all_deadlocks （MySQL 5.6.2 版本开始提供）参数为 ON 将死锁相关信息打印到 MySQL 的错误日志。
+
 
 ### 死锁检测和回滚
 - 启用deadlock detection时(默认设置)，InnoDB自动检测到事务deadlocks并回滚一个或多个事务以 break 僵局。

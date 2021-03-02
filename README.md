@@ -2,7 +2,7 @@ Waiting's java basic knowledge notes
 
 
 ### 2020-03-02
-- [x] [简述数据库中什么情况下进行分库，什么情况下进行分表？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-02/PhantomRead.md)
+- [x] [简述数据库中什么情况下进行分库，什么情况下进行分表？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-02/SubDBAndTable.md)
 
 ### 2020-03-01
 - [x] [简述脏读和幻读的发生场景，InnoDB 是如何解决幻读的？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-01/PhantomRead.md)

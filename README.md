@@ -1,5 +1,6 @@
 Waiting's java basic knowledge notes
-
+### 2020-03-03
+- [x] [简述一致性哈希算法的实现方式及原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-03/ConsistentHash.md)
 
 ### 2020-03-02
 - [x] [简述数据库中什么情况下进行分库，什么情况下进行分表？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-02/SubDBAndTable.md)

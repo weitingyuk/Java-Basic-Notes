@@ -21,3 +21,80 @@
 
 ### 一致性哈希作用
 一致性哈希算法，在移除或者添加一个服务器时，能够尽可能小地改变已存在的服务请求与处理请求服务器之间的映射关系。
+
+
+### 一致性哈希实现
+使用TreeMap来保存虚拟节点到真实节点的map;
+使用HashMap来保存真实节点到虚拟节点的map;
+
+```
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.SortedMap;
+import java.util.TreeMap;
+
+public class ConsistenceHashWithTreeMap {
+
+  private int virtualNums = 0;
+  private Map<String, List<String>> real2VirtualMap = new HashMap<>();
+  private SortedMap<Integer, String> sortedMap = new TreeMap<>();
+
+  private List<String> realNodes = new ArrayList<>();
+
+  public ConsistenceHashWithTreeMap(int virtualNums) {
+    this.virtualNums = virtualNums;
+  }
+
+  public void addServer(String node) {
+    realNodes.add(node);
+    String vNode = null;
+    List<String> virtualNodes = new ArrayList<>(this.virtualNums);
+    this.real2VirtualMap.put(node, virtualNodes);
+    for (int i=0; i<this.virtualNums; i++) {
+      vNode = node + "vvv&&vv" + i;
+      virtualNodes.add(vNode);
+      int hashValue = getHash(vNode);
+      this.sortedMap.put(hashValue, node);
+    }
+  }
+
+  public String getServer(String key) {
+    int hashValue = getHash(key);
+    SortedMap<Integer, String> subMap = sortedMap.tailMap(hashValue);
+    if (subMap.isEmpty()) {
+      return sortedMap.get(sortedMap.firstKey());
+    } else {
+      return subMap.get(subMap.firstKey());
+    }
+  }
+
+  private static int getHash(String str)
+  {
+    final int p = 16777619;
+    int hash = (int)2166136261L;
+    for (int i = 0; i < str.length(); i++)
+      hash = (hash ^ str.charAt(i)) * p;
+    hash += hash << 13;
+    hash ^= hash >> 7;
+    hash += hash << 3;
+    hash ^= hash >> 17;
+    hash += hash << 5;
+
+    if (hash < 0)
+      hash = Math.abs(hash);
+    return hash;
+  }
+
+  public static void main(String[] args) {
+    ConsistenceHashWithTreeMap ch = new ConsistenceHashWithTreeMap(10);
+    ch.addServer("192.168.0.11");
+    ch.addServer("192.168.0.12");
+    ch.addServer("192.168.0.13");
+    for (int i=0; i<10; i++) {
+      System.out.println("The server of treeMap " + i + " is " + ch.getServer("treeMap " + i));
+    }
+  }
+}
+```

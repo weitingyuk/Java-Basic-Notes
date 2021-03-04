@@ -1,6 +1,7 @@
 Waiting's java basic knowledge notes
 ### 2020-03-04
 - [x] [数据库查询中左外连接和内连接的区别是什么？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-04/Inner&LeftJoin.md)
+- [x] [数据库的读写分离的作用是什么？如何实现？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-04/Master&Slave.md)
 
 ### 2020-03-03
 - [x] [简述一致性哈希算法的实现方式及原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-03/ConsistentHash.md)

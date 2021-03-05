@@ -1,4 +1,8 @@
 Waiting's java basic knowledge notes
+
+### 2020-03-05
+- [x] [SQL优化的方案有哪些，如何定位问题并解决问题？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-05/SqlOptimization.md)
+
 ### 2020-03-04
 - [x] [数据库查询中左外连接和内连接的区别是什么？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-04/Inner&LeftJoin.md)
 - [x] [数据库的读写分离的作用是什么？如何实现？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-04/Master&Slave.md)

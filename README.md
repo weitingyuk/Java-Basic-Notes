@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2020-03-06
+- [x] [Redis 基础](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-06/RedisBasic.md)
+
 ### 2020-03-05
 - [x] [SQL优化的方案有哪些，如何定位问题并解决问题？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-05/SqlOptimization.md)
 

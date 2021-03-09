@@ -1,5 +1,9 @@
 Waiting's java basic knowledge notes
 
+
+### 2020-03-09
+- [x] [简述 Spring bean 的生命周期](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-09/BeanLifecycle.md)
+
 ### 2020-03-06
 - [x] [Redis 基础](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-06/RedisBasic.md)
 

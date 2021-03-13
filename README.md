@@ -1,4 +1,11 @@
 Waiting's java basic knowledge notes
+
+### 2020-03-13
+#### 复习
+- [x] [MinorGC 和 Full GC](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-13/MinorGC&FullGC.md)
+- [x] [索引覆盖](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-13/IndexCover.md)
+- [x] [MySQL Explain字段详解](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-13/MySQLExplain.md)
+
 ### 2020-03-12
 - [x] [复习-synchronized 关键字底层是如何实现的,它与 Lock 相比优缺点分别是什么](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-12/Synchronized.md)
 

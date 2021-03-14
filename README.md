@@ -2,7 +2,8 @@ Waiting's java basic knowledge notes
 
 ### 2020-03-14
 #### 复习
-- [x] [HashMap 与 ConcurrentHashMap 的实现原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-14/ConcurrentHashMap.md)
+- [x] [ConcurrentHashMap 的实现原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-14/ConcurrentHashMap.md)
+- [x] [复习 - 单例模式](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-14/Singleton.md)
 
 ### 2020-03-13
 #### 复习

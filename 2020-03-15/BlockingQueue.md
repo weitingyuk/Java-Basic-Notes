@@ -28,4 +28,4 @@ java.util.concurrent 中加入了 BlockingQueue 接口和五个阻塞队列类�
 1. DelayQueue ：
     1. 一个由优先级堆支持的、基于时间的调度队列。（基于PriorityQueue来实现的）是一个存放Delayed 元素的无界阻塞队列，只有在延迟期满时才能从中提取元素。该队列的头部是延迟期满后保存时间最长的 Delayed 元素。如果延迟都还没有期满，则队列没有头部，并且poll将返回null。当一个元素的 getDelay(TimeUnit.NANOSECONDS) 方法返回一个小于或等于零的值时，则出现期满，poll就以移除这个元素了。此队列不允许使用 null 元素。
 1. SynchronousQueue ：
-    1. 一个利用 BlockingQueue 接口的简单聚集（rendezvous）机制。
+    1. 一个利用 BlockingQueue 接口的简单聚集机制，每个 put 必须等待一个 take，反之亦然。同步队列没有任何内部容量，甚至连一个队列的容量都没有。

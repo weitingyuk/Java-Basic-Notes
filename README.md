@@ -1,5 +1,9 @@
 Waiting's java basic knowledge notes
 
+### 2020-03-16
+- [x] [error 和 exception 的区别是什么](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-16/Process&Thread.md)
+
+
 ### 2020-03-15
 - [x] [error 和 exception 的区别是什么](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-15/Error&Exception.md)
 - [x] [阻塞队列都有哪几种，有什么区别？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-15/BlockingQueue.md)

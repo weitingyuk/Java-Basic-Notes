@@ -1,7 +1,7 @@
 Waiting's java basic knowledge notes
 
 ### 2020-03-16
-- [x] [error 和 exception 的区别是什么](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-16/Process&Thread.md)
+- [x] [进程和线程之间有什么区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-16/Process&Thread.md)
 
 
 ### 2020-03-15

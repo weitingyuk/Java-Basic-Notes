@@ -1,5 +1,9 @@
 Waiting's java basic knowledge notes
 
+### 2020-03-20
+- [x] [简述 Java 内置排序算法的实现原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-20/TimSort.md)
+
+
 ### 2020-03-19
 - [x] [什么是 TCP 粘包和拆包？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-19/TCPPacket.md)
 

@@ -1,5 +1,9 @@
 Waiting's java basic knowledge notes
 
+### 2020-03-21
+- [x] [什么是 CAP ？什么是最终一致性？什么是幂等操作？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-21/CAP.md)
+- [x] [Redis多路复用机制](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-21/epoll.md)
+
 ### 2020-03-20
 - [x] [简述 Java 内置排序算法的实现原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-20/TimSort.md)
 

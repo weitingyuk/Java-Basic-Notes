@@ -1,6 +1,9 @@
 Waiting's java basic knowledge notes
 
 ### 2020-03-22
+- [x] [MVCC原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-23/MVCC.md)
+
+### 2020-03-22
 - [x] [简述 Zookeeper 基础原理以及使用场景](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-22/ZK.md)
 - [x] [电商系统中，如何实现秒杀功能？如何解决商品的超卖问题？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-22/SecKill.md)
 

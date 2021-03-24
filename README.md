@@ -3,7 +3,8 @@ Waiting's java basic knowledge notes
 
 
 ### 2020-03-24
-- [x] [详细解析 HTTP 与 HTTPS 的区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-23/HTTP&HTTPS.md)
+- [x] [详细解析 HTTP 与 HTTPS 的区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-24/HTTP&HTTPS.md)
+- [x] [Cookie 和 Session 的关系和区别是什么？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-24/Cookie&Session.md)
 
 ### 2020-03-23
 - [x] [MVCC原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-23/MVCC.md)

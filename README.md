@@ -1,6 +1,11 @@
 Waiting's java basic knowledge notes
 
-### 2020-03-22
+
+
+### 2020-03-24
+- [x] [详细解析 HTTP 与 HTTPS 的区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-23/HTTP&HTTPS.md)
+
+### 2020-03-23
 - [x] [MVCC原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-23/MVCC.md)
 
 ### 2020-03-22

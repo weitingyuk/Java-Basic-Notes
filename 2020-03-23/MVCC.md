@@ -10,11 +10,13 @@ MVCC只在InnoDB的事务中READ COMMITTED 和 REPEATABLE READ 两个隔离级�
 SELECT可以去版本链中拿记录，这就实现了读-写，写-读的并发执行
 #### 版本链的组成
 InnoDB引擎表中，它的聚簇索引记录中有两个必要的隐藏列：
-##### 1. trx_id
+##### 1. trx_id (DB_TRX_ID)
 这个id用来存储的每次对某条聚簇索引记录进行修改的时候的事务id。
-##### 2. roll_pointer
+##### 2. roll_pointer （DB_ROLL_PTR）
 roll_pointer是存了一个指针，它指向这条聚簇索引记录的上一个版本的位置，通过它来获得上一个版本的记录信息。
 - 每次对哪条聚簇索引记录有修改的时候，都会把老版本写入undo日志中。
+##### 3. id (DB_ROW_ID）
+如果建了主键就是主键ID，否则引擎会默认添加ROW_ID字段，这是隐藏
 
 ### 4. ReadView
 #### ReadView的作用

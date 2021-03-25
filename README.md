@@ -1,6 +1,8 @@
 Waiting's java basic knowledge notes
 
 
+### 2020-03-25
+- [x] [HTTP 中 GET 和 POST 区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-25/GET&POST.md)
 
 ### 2020-03-24
 - [x] [详细解析 HTTP 与 HTTPS 的区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-24/HTTP&HTTPS.md)

@@ -1,5 +1,7 @@
 Waiting's java basic knowledge notes
 
+### 2020-03-26
+- [x] [高并发情景下，核心线程池该如何设置参数？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-26/ThreadPoolSet.md)
 
 ### 2020-03-25
 - [x] [HTTP 中 GET 和 POST 区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-25/GET&POST.md)

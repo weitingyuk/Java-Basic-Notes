@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2020-03-27
+- [x] [DNS 查询服务器的基本流程是什么？DNS 劫持是什么？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-27/DNS.md)
+
 ### 2020-03-26
 - [x] [高并发情景下，核心线程池该如何设置参数？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-26/ThreadPoolSet.md)
 

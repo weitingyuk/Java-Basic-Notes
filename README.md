@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2020-03-28
+- [x] [简述 BIO, NIO, AIO 的区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-28/B/N/AIO.md)
+
 ### 2020-03-27
 - [x] [DNS 查询服务器的基本流程是什么？DNS 劫持是什么？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-27/DNS.md)
 

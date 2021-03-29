@@ -1,5 +1,9 @@
 Waiting's java basic knowledge notes
 
+### 2020-03-29
+- [x] [从输入 URL 到展现页面的全过程](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-29/URL.md)
+- [x] [volatile 关键字解决了什么问题，它的实现原理是什么？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-29/Volatile.md)
+
 ### 2020-03-28
 - [x] [简述 BIO, NIO, AIO 的区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-28/IO.md)
 

@@ -1,4 +1,6 @@
 Waiting's java basic knowledge notes
+### 2020-03-30
+- [x] [简述装饰者模式以及适配器模式](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-30/Adapter.md)
 
 ### 2020-03-29
 - [x] [从输入 URL 到展现页面的全过程](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-29/URL.md)

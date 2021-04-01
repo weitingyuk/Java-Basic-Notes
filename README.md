@@ -1,7 +1,7 @@
 Waiting's java basic knowledge notes
 
 ### 2020-04-01
-- [x] [ThreadLocal 实现原理是什么](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-01/Override&Overwrite.md)
+- [x] [什么是重写和重载？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-01/Override&Overwrite.md)
 
 ### 2020-03-31
 - [x] [ThreadLocal 实现原理是什么](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-03-31/ThreadLocal.md)

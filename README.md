@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2020-04-02
+- [x] [如何实现唯一的分布式 ID](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-02/DistributedID.md)
+
 ### 2020-04-01
 - [x] [什么是重写和重载？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-01/Override&Overwrite.md)
 

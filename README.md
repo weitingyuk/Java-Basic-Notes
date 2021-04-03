@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2020-04-03
+- [x] [Java 的线程有哪些状态，转换关系是怎么样的？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-03/ThreadStates.md)
+
 ### 2020-04-02
 - [x] [如何实现唯一的分布式 ID](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-02/DistributedID.md)
 

@@ -2,7 +2,7 @@ Waiting's java basic knowledge notes
 
 ### 2020-04-04
 - [x] [简述中间件削峰和限流的使用场景](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-04/CurrentLimiting.md)
-- [x] [简述 GC 引用链](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-04/GC.md)
+- [x] [简述 GC 引用链](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-04/GCRoots.md)
 - [x] [简述G1收集器原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-04/G1.md)
 
 ### 2020-04-03

@@ -1,5 +1,10 @@
 Waiting's java basic knowledge notes
 
+### 2020-04-05
+- [x] [简述 HashSet 实现原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-05/HashSet.md)
+- [x] [简述常见的负载均衡算法](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-05/LB.md)
+- [x] [ 简述 CAS 原理，什么是 ABA 问题，怎么解决？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-05/CAS.md)
+
 ### 2020-04-04
 - [x] [简述中间件削峰和限流的使用场景](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-04/CurrentLimiting.md)
 - [x] [简述 GC 引用链](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-04/GCRoots.md)

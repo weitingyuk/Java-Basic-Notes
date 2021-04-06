@@ -1,5 +1,9 @@
 Waiting's java basic knowledge notes
 
+### 2020-04-06
+- [x] [进程间有哪些通信方式？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-06/Message.md)
+- [x] [为什么进程切换慢，线程切换快？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-06/Process&ThreadSwitch.md)
+
 ### 2020-04-05
 - [x] [简述 HashSet 实现原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-05/HashSet.md)
 - [x] [简述常见的负载均衡算法](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2020-04-05/LB.md)

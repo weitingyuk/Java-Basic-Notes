@@ -1,5 +1,10 @@
 Waiting's java basic knowledge notes
 
+
+### 2021-04-07
+- [x] [简述 Linux 虚拟内存的页面置换算法](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-07/PageChange.md)
+- [x] [为什么进程切换慢，线程切换快？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-07/Process&ThreadSwitch.md)
+
 ### 2021-04-06
 - [x] [进程间有哪些通信方式？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-06/Message.md)
 - [x] [为什么进程切换慢，线程切换快？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-06/Process&ThreadSwitch.md)

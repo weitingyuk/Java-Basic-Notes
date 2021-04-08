@@ -1,5 +1,13 @@
 Waiting's java basic knowledge notes
 
+### 2021-04-08
+- [x] [Spring ApplicationContext和 BeanFactory区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-08/ApplicationContext&BeanFactory.md)
+- [x] [Spring 是如何处理循环依赖](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-08/SpringLoopDI.md)
+#### 复习
+- [x] [Java里的阻塞队列都有哪几种，有什么区别？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-08/BlockingQueue.md)
+- [x] [Java 类的加载流程是怎样的？什么是双亲委派机制？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-08/ClassLoader.md)
+- [x] [线程池是如何实现的？简述线程池的任务策略](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-08/ThreadPool.md)
+
 
 ### 2021-04-07
 - [x] [简述 Linux 虚拟内存的页面置换算法](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-07/PageChange.md)

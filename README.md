@@ -1,5 +1,13 @@
 Waiting's java basic knowledge notes
 
+### 2021-04-09
+- [x] [简述伪共享](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-09/FalseSharing.md)
+- [x] [简述原子操作的原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-09/Atomic.md)
+- [x] [SynchronousQueue和LinkedTransferQueue区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-09/SynchronousQueue&LinkedTransferQueue.md)
+#### 复习
+- [x] [MinorGC 和 Full GC](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-09/GC.md)
+
+
 ### 2021-04-08
 - [x] [Spring ApplicationContext和 BeanFactory区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-08/ApplicationContext&BeanFactory.md)
 - [x] [Spring 是如何处理循环依赖](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-08/SpringLoopDI.md)

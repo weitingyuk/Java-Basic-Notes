@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-04-10
+- [x] [Java 线程间有多少通信方式？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-10/ThreadMsg.md)
+
 ### 2021-04-09
 - [x] [简述伪共享](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-09/FalseSharing.md)
 - [x] [简述原子操作的原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-09/Atomic.md)

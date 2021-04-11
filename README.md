@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-04-11
+- [x] [常用的限流算法有哪些？简述令牌桶算法原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-11/Limiter.md)
+
 ### 2021-04-10
 - [x] [Java 线程间有多少通信方式？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-10/ThreadMsg.md)
 

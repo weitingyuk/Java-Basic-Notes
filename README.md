@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-04-13
+- [x] [设计一个阻塞队列](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-13/BlockingQueue.md)
+
 ### 2021-04-12
 - [x] [ConcurrentHashMap原理 - JDK1.7](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-12/ConcurrentHashMap.md)
 

@@ -2,6 +2,7 @@ Waiting's java basic knowledge notes
 
 ### 2021-04-14
 - [x] [数据库设计三大范式](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-14/NF.md)
+- [x] [联合索引的存储结构是什么？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-14/MultiIndex.md)
 
 ### 2021-04-13
 - [x] [设计一个阻塞队列](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-13/BlockingQueue.md)

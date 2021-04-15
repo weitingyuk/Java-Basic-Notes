@@ -1,5 +1,11 @@
 Waiting's java basic knowledge notes
 
+
+### 2021-04-15
+- [x] [ArrayDeque 和 LinkedList 的区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-15/ArrayDeque&LinkedList.md)
+- [x] [Spring 内建的 Bean 作用域有哪些？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-15/BeanScope.md)
+- [x] [SELECT COUNT(*)](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-15/SelectCount.md)
+
 ### 2021-04-14
 - [x] [数据库设计三大范式](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-14/NF.md)
 - [x] [联合索引的存储结构是什么？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-14/MultiIndex.md)

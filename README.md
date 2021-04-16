@@ -1,5 +1,7 @@
 Waiting's java basic knowledge notes
 
+### 2021-04-16
+- [x] [Java 如何高效进行数组拷贝](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-16/ArrayCopy.md)
 
 ### 2021-04-15
 - [x] [ArrayDeque 和 LinkedList 的区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-15/ArrayDeque&LinkedList.md)

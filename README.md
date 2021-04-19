@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-04-19
+- [x] [JVM、JRE、JDK有什么联系与区别？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-19/JVM&JRE&JDk.md)
+
 ### 2021-04-18
 - [x] [HTTP调用 VS RPC调用](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-18/RPC&HTTP.md)
 

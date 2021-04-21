@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-04-21
+- [x] [Java内存模型JMM](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-21/JMM.md)
+
 ### 2021-04-20
 - [x] [设计TinyURL系统-待续](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-20/TinyURL.md)
 

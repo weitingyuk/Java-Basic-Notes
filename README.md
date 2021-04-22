@@ -1,10 +1,13 @@
 Waiting's java basic knowledge notes
 
+### 2021-04-22
+- [x] [Redis的原子性](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-22/RedisAtomic.md)
+
 ### 2021-04-21
 - [x] [Java内存模型JMM](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-21/JMM.md)
 
 ### 2021-04-20
-- [x] [设计TinyURL系统-待续](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-20/TinyURL.md)
+- [x] [设计TinyURL系统](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-20/TinyURL.md)
 
 ### 2021-04-19
 - [x] [JVM、JRE、JDK有什么联系与区别？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-19/JVM&JRE&JDk.md)

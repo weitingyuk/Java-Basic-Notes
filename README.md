@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-04-23
+- [x] [ZAB协议](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-23/ZAB.md)
+
 ### 2021-04-22
 - [x] [Redis的原子性](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-22/RedisAtomic.md)
 

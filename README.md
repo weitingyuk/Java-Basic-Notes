@@ -1,5 +1,11 @@
 Waiting's java basic knowledge notes
 
+
+### 2021-04-24
+- [x] [分布式一致性算法简介](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-24/ConsistencyDistributed.md)
+- [x] [Redis数据结构](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-24/RedisData.md)
+- [x] [Redis数据类型与数据结构](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-24/RedisDataType.md)
+
 ### 2021-04-23
 - [x] [ZAB协议](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-23/ZAB.md)
 

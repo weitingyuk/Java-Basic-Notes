@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-04-25
+- [x] [AQS实现原理-待续](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-25/AQS.md)
+- [x] [Synchronized 的几种用法](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-25/SyncApplication.md
 
 ### 2021-04-24
 - [x] [分布式一致性算法简介](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-24/ConsistencyDistributed.md)

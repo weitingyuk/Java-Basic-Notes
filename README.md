@@ -1,5 +1,9 @@
 Waiting's java basic knowledge notes
 
+### 2021-04-26
+- [x] [操作系统-死锁](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-26/DeadLockOS.md)
+- [x] [Redis 主从同步的原理](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-26/RedisMasterSlave.md)
+
 ### 2021-04-25
 - [x] [AQS实现原理-待续](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-25/AQS.md)
 - [x] [Synchronized 的几种用法](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-25/SyncApplication.md)

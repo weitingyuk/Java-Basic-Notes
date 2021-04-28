@@ -1,6 +1,9 @@
 Waiting's java basic knowledge notes
 
 
+### 2021-04-28
+- [x] [mysql和redis的数据一致性](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-28/CacheConsistancy.md)
+
 ### 2021-04-27
 - [x] [基于Redis实现消息队列](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-27/RedisMQ.md)
 

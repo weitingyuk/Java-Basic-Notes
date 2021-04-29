@@ -1,6 +1,9 @@
 Waiting's java basic knowledge notes
 
 
+### 2021-04-29
+- [x] [常见的进程调度的算法](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-29/ProcessSchedule.md)
+
 ### 2021-04-28
 - [x] [mysql和redis的数据一致性](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-28/CacheConsistancy.md)
 

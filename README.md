@@ -1,6 +1,10 @@
 Waiting's java basic knowledge notes
 
 
+### 2021-04-30
+- [x] [InnoDB没有锁升级](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-30/ProcessSchedule.md)
+- [x] [什么是 SQL 注入攻击？如何防止这类攻击？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-30/SqlInsert.md)
+
 ### 2021-04-29
 - [x] [常见的进程调度的算法](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-29/ProcessSchedule.md)
 

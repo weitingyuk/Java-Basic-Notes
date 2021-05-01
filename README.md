@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-05-01
+- [x] [SpringBoot 是如何进行自动配置的？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-01/SpringBootAutoConfiguration.md)
+- [x] [简述 Java 中的自动装箱与拆箱](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-01/AutoBoxing.md)
 
 ### 2021-04-30
 - [x] [InnoDB没有锁升级](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-04-30/MysqlLockUpgrade.md)

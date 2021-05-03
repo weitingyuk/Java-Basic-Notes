@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-05-03
+- [x] [假如明天是活动高峰？QPS 预计会翻10倍？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-03/10QPS.md)
+- [x] [简述 Git 的工作流](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-03/GitFlow.md)
 
 ### 2021-05-02
 - [x] [Linux 下如何查看端口被哪个进程占用？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-02/ProcessPort.md)

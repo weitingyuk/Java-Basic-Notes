@@ -1,5 +1,13 @@
 Waiting's java basic knowledge notes
 
+### 2021-05-04
+- [x] [Kafk, RabbitMQ, RocketMQ 之间的区别是什么 ](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-04/Rocket&Kafka.md)
+- [x] [RocketMQ简介](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-04/RocketMq.md)
+- [x] [MQ的消息堆积问题](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-04/MqMessageExceed.md)
+- [x] [MQ消息可靠性](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-04/MessageReliable.md)
+- [x] [MQ幂等性问题](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-04/MqEquals.md)
+- [x] [MQ实现流量削峰填谷](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-04/MqPeakShaving.md)
+
 ### 2021-05-03
 - [x] [假如明天是活动高峰？QPS 预计会翻10倍？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-03/10QPS.md)
 - [x] [简述 Git 的工作流](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-03/GitFlow.md)

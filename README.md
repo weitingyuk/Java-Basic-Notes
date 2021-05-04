@@ -1,7 +1,7 @@
 Waiting's java basic knowledge notes
 
 ### 2021-05-04
-- [x] [Kafk, RabbitMQ, RocketMQ 之间的区别是什么 ](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-04/Rocket&Kafka.md)
+- [x] [Kafka, RabbitMQ, RocketMQ 之间的区别是什么 ](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-04/Rocket&Kafka.md)
 - [x] [RocketMQ简介](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-04/RocketMq.md)
 - [x] [MQ的消息堆积问题](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-04/MqMessageExceed.md)
 - [x] [MQ消息可靠性](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-04/MessageReliable.md)

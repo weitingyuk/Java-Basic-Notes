@@ -1,5 +1,9 @@
 Waiting's java basic knowledge notes
 
+### 2021-05-05
+- [x] [SOA 与微服务](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-05/SOA&MicroService.md)
+- [x] [微服务和RPC](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-05/MS&RPC.md)
+
 ### 2021-05-04
 - [x] [Kafka, RabbitMQ, RocketMQ 之间的区别是什么 ](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-04/Rocket&Kafka.md)
 - [x] [RocketMQ简介](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-04/RocketMq.md)

@@ -1,5 +1,9 @@
 Waiting's java basic knowledge notes
 
+### 2021-05-06
+- [x] [ThreadLocal 实现原理是什么 - 复习](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-06/ThreadLocal.md)
+- [x] [CyclicBarrier和CountDownLatch的区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-06/CyclicBarrier&CountDownLatch.md)
+
 ### 2021-05-05
 - [x] [SOA 与微服务](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-05/SOA&MicroService.md)
 - [x] [微服务和RPC](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-05/MS&RPC.md)

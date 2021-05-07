@@ -1,5 +1,12 @@
 Waiting's java basic knowledge notes
 
+### 2021-05-07
+- [x] [简述常见的 HTTP 状态码的含义](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-07/HttpStatusCode.md)
+- [x] [简述缺页中断](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-07/PageNotFound.md)
+- [x] [用户态和内核态切换](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-07/User&Core.md)
+- [x] [Linux的 IO 模型介绍](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-07/LinuxIOModels.md)
+
+
 ### 2021-05-06
 - [x] [ThreadLocal 实现原理是什么 - 复习](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-06/ThreadLocal.md)
 - [x] [CyclicBarrier和CountDownLatch的区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-06/CyclicBarrier&CountDownLatch.md)

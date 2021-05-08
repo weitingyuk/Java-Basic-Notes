@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-05-08
+- [x] [简述 TCP 的报文头部结构](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-08/TcpStruct.md)
+
 ### 2021-05-07
 - [x] [简述常见的 HTTP 状态码的含义](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-07/HttpStatusCode.md)
 - [x] [简述缺页中断](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-07/PageNotFound.md)

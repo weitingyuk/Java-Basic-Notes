@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-05-10
+- [x] [数据库反范式设计会出现什么问题？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-10/AntiParadigm.md)
+
 ### 2021-05-09
 - [x] [TCP 的keepalive 和 HTTP的 keep-alive的区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-09/KeepAlive.md)
 - [x] [RestFul和RPC的区别](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-09/RestFul&RPC.md)

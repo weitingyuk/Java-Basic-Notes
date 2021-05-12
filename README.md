@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-05-12
+- [x] [Thrift协议学习-1](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-12/Thrift-1.md)
+
 ### 2021-05-11
 - [x] [什么是 SYN flood，如何防止这类攻击？](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-11/SYNflood.md)
 

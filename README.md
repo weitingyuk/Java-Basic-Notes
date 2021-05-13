@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-05-13
+- [x] [序列化协议对比](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-13/Serialize.md)
+
 ### 2021-05-12
 - [x] [Thrift协议学习-1](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-12/Thrift-1.md)
 

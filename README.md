@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-05-14
+- [x] [Spring事务失效的 8 大原因](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-14/SpringTransactional.md)
+
 ### 2021-05-13
 - [x] [序列化协议对比](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-13/Serialize.md)
 

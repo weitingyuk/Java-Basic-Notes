@@ -1,5 +1,8 @@
 Waiting's java basic knowledge notes
 
+### 2021-05-15
+- [x] [Thrift协议学习2 - 网络服务模型](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-15/ThriftNetwork.md)
+
 ### 2021-05-14
 - [x] [Spring事务失效的 8 大原因](https://github.com/weitingyuk/Java-Basic-Notes/blob/main/2021-05-14/SpringTransactional.md)
 

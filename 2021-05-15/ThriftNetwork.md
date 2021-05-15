@@ -99,10 +99,3 @@ THsHaServer与TNonblockingServer模式相比，THsHaServer在完成数据读取�
 TThreadedSelectorServer模式中有一个专门的线程AcceptThread用于处理新连接请求，因此能够及时响应大量并发连接请求；
 将网络I/O操作分散到多个SelectorThread线程中来完成，因此能够快速对网络I/O进行读写操作，能够很好地应对网络I/O较多的情况。
 ```
-
-
-
-作者：零壹技术栈
-链接：https://juejin.cn/post/6844903622384287751
-来源：掘金
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
